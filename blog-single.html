@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Worklogue</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+            
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li><a href="index.html#home" title="home">Home</a></li>
+                <li><a href="index.html#about" title="about">About</a></li>
+                <li><a href="index.html#works" title="works">Travelogue</a></li>
+                <li class="current"><a href="blog.html" title="blog">Worklogue</a></li>
+                <li><a href="index.html#contact" title="contact">Contact</a></li>	
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <article class="blog-single">
+
+        <!-- page header/blog hero
+        ================================================== -->
+        <div class="page-header page-header--single page-hero" style="background-image:url(images/blog/blog-bg-02.jpg)">
+        
+            <div class="row page-header__content narrow">
+                <article class="col-full">
+                    <div class="page-header__info">
+                        <div class="page-header__cat">
+                            <a href="#0">Uncover the</a><a href="#0">Shadows</a>
+                        </div>
+                    </div>
+                    <h1 class="page-header__title">
+                        <a href="#0" title="">
+                            Threat Modeling
+                        </a>
+                    </h1>
+                    <ul class="page-header__meta">
+                        <li class="date">December 23, 2024</li>
+                        <li class="author">
+                            By
+                            <span>Manmohan Sharma</span>
+                        </li>
+                    </ul>
+                    
+                </article>
+            </div>
+    
+        </div> <!-- end page-header -->
+
+        <div class="row blog-content">
+            <div class="col-full blog-content__main">
+                
+				<p>Welcome, fellow defenders of the digital realm! Today, we embark on an epic quest through the world of Threat Modeling—a superhero-like strategy that helps us identify and neutralize potential threats before they wreak havoc on our systems. Picture this as a thrilling comic book adventure, where our heroes (you!) use their powers of analysis and collaboration to protect the innocent (your organization) from the dastardly villains (cybercriminals). So, grab your capes and let’s dive into this action-packed journey!</p>
+				<!-- Suggestion: Add an introductory superhero-themed image -->
+				<!--<img src="path-to-your-intro-image.jpg" alt="Superhero team concept" class="image-center">-->
+
+				<h2>Introduction to Threat Modeling</h2>
+				<h3>Definition</h3>
+				<p>Threat modeling is like assembling the ultimate superhero team to combat cyber threats. It’s a structured approach to identifying, assessing, and mitigating potential security threats to a system or application. By analyzing the architecture of a system and understanding its components, we can pinpoint vulnerabilities that could be exploited by the bad guys. The goal? To prioritize security measures based on identified threats and their potential impact—because nobody wants to be the sidekick who forgot to check for traps!</p>
+    
+
+				<p class="lead">Key Stakeholder</p>
+				<p>In our superhero saga, we have a diverse cast of characters who play crucial roles in the threat modeling process:</p>
+				<ul>
+				<li><strong>Security Professionals:</strong> The seasoned heroes who understand the threat landscape and can provide insights into potential vulnerabilities. Think of them as the wise mentors guiding the team.</li>
+				  <li><strong>Developers:</strong> The tech-savvy sidekicks who design and build the system, offering valuable information about the architecture and functionality. They’re the ones crafting the gadgets!</li>
+				  <li><strong>System Architects:</strong> The masterminds who understand the overall design and can identify potential weaknesses in the system's structure. They’re the ones drawing the blueprints for the superhero headquarters.</li>
+				  <li><strong>Business Analysts:</strong> The strategists who provide context on business processes and the impact of potential threats on operations. They’re the ones keeping an eye on the mission objectives.</li>
+				  <li><strong>Compliance Officers:</strong> The rule enforcers who ensure that the threat modeling process aligns with regulatory requirements and industry standards. They’re the ones making sure our heroes play by the rules!</li>
+				  <li><strong>Operations Teams:</strong> The unsung heroes who understand the operational impact of potential threats and vulnerabilities. They’re the ones ensuring everything runs smoothly behind the scenes.</li>
+				</ul>
+				<img src="images/wheel-2000.jpg" alt="Superhero team" style="width: 100%; max-width: 1000px; margin: 10px 0;">
+				<li>Design - Threat modeling</li>
+				<li>Build - Coding guidelines and Secure code review</li>
+				<li>Test - Security Testing</li>
+				<li>Production - Configuration guidelines, WAF Tuning</li>
+				<p></P>
+				<p> Its all about how you map your requirements with threat modeling framework!</p>
+                <p>
+
+				
+                <!-<img src="images/wheel-1000.jpg" 
+                     srcset="images/wheel-2000.jpg 2000w, 
+                        images/wheel-1000.jpg 1000w, 
+                        images/wheel-500.jpg 500w" 
+                     sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                </p>
+				
+				<h3>Flaw vs. Bug</h3>
+				<p>In our superhero story, we must distinguish between a flaw and a bug:</p>
+				<li>Flaw: A design or architectural issue that can lead to vulnerabilities. Think of it as a gaping hole in the wall of a bank vault—an invitation for trouble!</li>
+				<li>Bug: A coding error that may lead to unintended behavior but doesn’t necessarily indicate a security vulnerability. It’s like a minor hiccup in the superhero’s plan—annoying, but not catastrophic.</li>
+				
+				<h2>Threat Modeling Frameworks</h2>
+				<ul>
+					<li><span class="highlight">STRIDE - </span> The classic superhero toolkit! It helps identify threats like Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege. Think of it as your trusty magnifying glass.</li>
+					<li><span class="highlight">PASTA - </span>(Process for Attack Simulation and Threat Analysis): A risk-centric approach that emphasizes the business impact of threats. It’s like simulating a heist to see how the criminals might strike!</li>
+					<li><span class="highlight">OCTAVE - </span>(Operationally Critical Threat, Asset, and Vulnerability Evaluation): A framework that focuses on organizational risk and security practices. It’s the superhero handbook for assessing vulnerabilities.</li>
+					<li><span class="highlight">VAST - </span>(Visual, Agile, and Simple Threat): A scalable approach that integrates threat modeling into agile development processes. It’s like having a visual map of the crime scene!</li>
+					<li><span class="highlight">ATTACK Trees - </span>A hierarchical representation of potential attacks, allowing teams to visualize and analyze the paths an attacker might take. It’s like plotting the villain’s escape route!</li>
+					<li><span class="highlight">LINDDUN - </span>A privacy threat modeling framework that focuses on identifying privacy risks in software systems. It’s the superhero’s guide to keeping secrets safe!</li>
+					<li><span class="highlight">TRIKE - </span>A risk management framework that emphasizes the relationship between assets, threats, and vulnerabilities. It’s like a superhero team-up where everyone knows their strengths and weaknesses!</li>
+					<li><span class="highlight">Cyber Kill Chain - </span>A framework that outlines the stages of a cyber attack, helping teams understand how attackers operate. It’s like following the villain’s master plan step by step!</li>
+					
+					<!-- Suggestion: Add a comparative diagram or graphic showing frameworks -->
+					<!--<img src="path-to-frameworks-diagram.jpg" alt="Threat modeling frameworks comparison" class="image-center">
+				</ul>-->
+
+				<h2>Understanding Each Framework with an Example</h2>
+				<p>Let’s take a look at a fictional organization, TechCorp, which has a cloud-based application for managing customer data. We’ll explore how each framework applies to TechCorp’s architecture: </p>
+
+				<li>STRIDE: TechCorp can use STRIDE to identify potential threats such as spoofing user identities, tampering with data, or denial of service attacks during peak usage times.</li>
+				<li>PASTA: By simulating an attack on TechCorp’s application, the team can assess the business impact of a data breach, helping prioritize security measures based on potential losses.</li>
+				<li>OCTAVE: TechCorp can evaluate its critical assets, such as customer data and intellectual property, to identify vulnerabilities and develop a risk management strategy.</li>
+				<li>VAST: In an agile development environment, TechCorp can use VAST to integrate threat modeling into its sprints, ensuring that security is considered at every stage of development.</li>
+				<li>Attack Trees: TechCorp can create attack trees to visualize potential attack paths, such as gaining unauthorized access to the application through phishing or exploiting software vulnerabilities.</li>
+				<li>LINDDUN: TechCorp can assess privacy risks related to customer data, ensuring that personal information is protected and compliance with regulations is maintained.</li>
+				<li>Trike: By mapping out assets, threats, and vulnerabilities, TechCorp can prioritize its security efforts based on the potential impact of various threats.</li>
+				<li>Cyber Kill Chain: TechCorp can analyze the stages of a potential attack, from reconnaissance to exploitation, to better understand how to defend against each phase.</li>
+				
+			    <h2>Risk Calculation: Qualitative and Quantitative</h2>
+				<p>When it comes to risk calculation, organizations can use both qualitative and quantitative methods:</p>
+				<li>Qualitative Risk Assessment: This approach involves categorizing risks based on their likelihood and impact using descriptive terms (e.g., high, medium, low). It’s like rating the severity of a villain’s threat level!</li>
+				<li>Quantitative Risk Assessment: This method involves assigning numerical values to risks, allowing for more precise calculations. It’s like calculating the exact amount of damage a villain could cause!</li>
+				<p>Example: Session Hijacking and IDOR Vulnerabilities</p>
+				<p>Let’s consider two vulnerabilities: Session Hijacking and Insecure Direct Object Reference (IDOR).</p>
+				<p><strong>1.	Session Hijacking:</strong></p>
+				<li>Threat Actor: Cybercriminals looking to steal user sessions.</li>
+				<li>Vulnerability Factor: Weak session management.</li>
+				<li>Technical Impact: High—unauthorized access to user accounts.</li>
+				<li>Business Impact: High—loss of customer trust and potential legal ramifications.</li>
+				<br></br>
+				<p><strong>2.	IDOR: </strong></p>
+				<li>Threat Actor: Malicious users attempting to access unauthorized resources.</li>
+				<li>Vulnerability Factor: Poor access control mechanisms.</li>
+				<li>Technical Impact: Medium—access to sensitive data.</li>
+				<li>Business Impact: Medium—potential data breaches and compliance issues.</li>				
+
+
+                <h2>Prioritizing Remediation of Vulnerabilities</h2>
+				<p>To prioritize remediation, we can use the formula: Risk = Probability x Impact.</p>
+				<li>For Session Hijacking, the probability is high, and the impact is high, resulting in a significant risk that should be addressed immediately.</li>
+				<li>For IDOR, the probability is medium, and the impact is medium, indicating that while it’s a concern, it may not require immediate action compared to session hijacking.</li>
+				<br></br>
+				<p>In conclusion, by understanding threat modeling and utilizing various frameworks, organizations can effectively identify and mitigate risks, ensuring a safer digital environment. So, fellow defenders, let’s don our capes and continue the fight against cyber threats—because every superhero needs a solid plan!</p>
+				<br></br>
+				<p>So, whether you’re a seasoned cybersecurity professional or just starting your journey, embrace your inner superhero. Collaborate with your team, share knowledge, and keep your organization safe from the lurking dangers of the cyber world. After all, in the realm of cybersecurity, every day is a new adventure, and every threat is an opportunity to strengthen our defenses.
+				Now, go forth and protect your digital city—your cape is waiting! 🦸‍♂️🦸‍♀️
+				</p>
+
+				<div class="blog-content__pagenav">
+                    <div class="blog-content__nav">
+                        <div class="blog-content__prev">
+                            <a href="#0" rel="prev">
+                                <span>Previous Post</span>
+                                DFIR - Digital Forensics and Incident Repsonse
+                            </a>
+                        </div>
+                        <div class="blog-content__next">
+                            <a href="#0" rel="next">
+                                <span>Next Post</span>
+                                Pen Testing World 
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-content__all">
+                        <a href="blog.html" class="btn btn--primary">
+                            View All Post
+                        </a>
+                    </div>
+                </div>
+
+            </div><!-- end blog-content__main -->
+        </div> <!-- end blog-content -->
+
+    </article>
+
+
+    <!-- comments
+    ================================================== -->
+    <!--<div class="comments-wrap">
+
+        <div id="comments" class="row">
+            <div class="col-full">
+
+               <h3>5 Comments</h3>
+
+               <!-- commentlist -->
+               <!--<ol class="commentlist">
+
+                    <li class="depth-1 comment">
+
+                        <div class="comment__avatar">
+                            <img width="50" height="50" class="avatar" src="images/avatars/user-01.jpg" alt="">
+                        </div>
+
+                        <div class="comment__content">
+
+                            <div class="comment__info">
+                                <cite>Itachi Uchiha</cite>
+
+                                <div class="comment__meta">
+                                    <time class="comment__time">Sep 16, 2017 @ 23:05</time>
+                                    <span class="sep">|</span><a class="reply" href="#">Reply</a>
+                                </div>
+                            </div>
+
+                            <div class="comment__text">
+                            <p>Adhuc quaerendum est ne, vis ut harum tantas noluisse, id suas iisque mei. Nec te inani ponderum vulputate,
+                            facilisi expetenda has et. Iudico dictas scriptorem an vim, ei alia mentitum est, ne has voluptua praesent.</p>
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <li class="thread-alt depth-1 comment">
+
+                        <div class="comment__avatar">
+                            <img width="50" height="50" class="avatar" src="images/avatars/user-04.jpg" alt="">
+                        </div>
+
+                        <div class="comment__content">
+
+                            <div class="comment__info">
+                            <cite>John Doe</cite>
+
+                            <div class="comment__meta">
+                                <time class="comment__time">Sep 16, 2017 @ 24:05</time>
+                                <span class="sep">|</span><a class="reply" href="#">Reply</a>
+                            </div>
+                            </div>
+
+                            <div class="comment__text">
+                            <p>Sumo euismod dissentiunt ne sit, ad eos iudico qualisque adversarium, tota falli et mei. Esse euismod
+                            urbanitas ut sed, et duo scaevola pericula splendide. Primis veritus contentiones nec ad, nec et
+                            tantas semper delicatissimi.</p>
+                            </div>
+
+                        </div>
+
+                        <ul class="children">
+
+                            <li class="depth-2 comment">
+
+                                <div class="comment__avatar">
+                                    <img width="50" height="50" class="avatar" src="images/avatars/user-03.jpg" alt="">
+                                </div>
+
+                                <div class="comment__content">
+
+                                    <div class="comment__info">
+                                        <cite>Kakashi Hatake</cite>
+
+                                        <div class="comment__meta">
+                                            <time class="comment__time">Sep 16, 2017 @ 25:05</time>
+                                            <span class="sep">|</span><a class="reply" href="#">Reply</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="comment__text">
+                                        <p>Duis sed odio sit amet nibh vulputate
+                                        cursus a sit amet mauris. Morbi accumsan ipsum velit. Duis sed odio sit amet nibh vulputate
+                                        cursus a sit amet mauris</p>
+                                    </div>
+
+                                </div>
+
+                                <ul class="children">
+
+                                    <li class="depth-3 comment">
+
+                                        <div class="comment__avatar">
+                                            <img width="50" height="50" class="avatar" src="images/avatars/user-04.jpg" alt="">
+                                        </div>
+
+                                        <div class="comment__content">
+
+                                            <div class="comment__info">
+                                            <cite>John Doe</cite>
+
+                                            <div class="comment__meta">
+                                                <time class="comment__time">Sep 16, 2017 @ 25:15</time>
+                                                <span class="sep">|</span><a class="reply" href="#">Reply</a>
+                                            </div>
+                                            </div>
+
+                                            <div class="comment__text">
+                                            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+                                            etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="depth-1 comment">
+
+                        <div class="comment__avatar">
+                            <img width="50" height="50" class="avatar" src="images/avatars/user-02.jpg" alt="">
+                        </div>
+
+                        <div class="comment__content">
+
+                            <div class="comment__info">
+                            <cite>Shikamaru Nara</cite>
+
+                            <div class="comment__meta">
+                                <time class="comment-time">Sep 16, 2017 @ 25:15</time>
+                                <span class="sep">|</span><a class="reply" href="#">Reply</a>
+                            </div>
+                            </div>
+
+                            <div class="comment__text">
+                            <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                </ol> <!-- Commentlist End -->	
+
+               <!-- respond -->
+               <!--<div class="respond">
+
+                    <h3>Leave a Comment</h3>
+
+                    <form name="contactForm" id="contactForm" method="post" action="">
+                        <fieldset>
+
+                        <div class="form-field">
+                                <input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="">
+                        </div>
+
+                        <div class="form-field">
+                                <input name="cEmail" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="">
+                        </div>
+
+                        <div class="form-field">
+                                <input name="cWebsite" type="text" id="cWebsite" class="full-width" placeholder="Website" value="">
+                        </div>
+
+                        <div class="message form-field">
+                            <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="submit btn--primary">Submit</button>
+
+                        </fieldset>
+                    </form> <!-- Form End -->
+
+                </div> <!-- Respond End -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end row comments -->
+    </div> <!-- end comments-wrap -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+            <div class="row">
+                <div class="col-full">
+    
+                    <div class="footer-logo">
+                        <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                    </div>
+    
+                    <ul class="footer-social">
+                        <li><a href="mailto:manmohansharma173@gmail.com">
+                        <i class="im im-email" aria-hidden="true"></i>
+                        <span>Gmail</span>
+                    </a></li>
+                    <li><a href="https://www.youtube.com/@UnpluggedPages">
+                        <i class="im im-youtube" aria-hidden="true"></i>
+                        <span>Youtube</span>
+                    </a></li>
+                    <li><a href="https://wa.me/+919991365333">
+                        <i class="im im-whatsapp" aria-hidden="true"></i>
+                        <span>Whatsapp</span>
+                    </a></li>
+                    <li><a href="https://github.com/manmohansharma173">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>Github</span>
+                        </a></li>
+                    </ul>
+                        
+                </div>
+            </div>
+    
+			<!--<div class="row footer-bottom">
+    
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright Hola 2017</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                    </div>
+    
+                    <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+    
+            </div> <!-- end footer-bottom -->
+    
+        </footer> <!-- end footer -->
+    
+    
+        <div id="preloader"> 
+            <div id="loader"></div>
+        </div>
+    
+    
+        <!-- Java Script
+        ================================================== -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
